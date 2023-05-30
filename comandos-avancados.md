@@ -123,7 +123,27 @@ Esse comando permite aplicar um commit específico a um branch diferente.
 
 Os submódulos permitem incluir outros repositórios Git como pastas em um repositório principal.
 
+```
+git submodule add url_do_repositorio
+```
+
 ---
 ## Tags
 
 As tags são referências estáticas para versões específicas do código em um repositório. Elas são úteis para marcar lançamentos estáveis.
+
+```
+git tag nome_da_tag
+```
+
+## Referências adicionais
+
+Referências de tópicos na Documentaçã Git:
+
+* Gerenciando Branches: <a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell"> Git Branching</a>
+* Trabalhando com repositórios remotos: <a href="https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes"> Working with remotes</a>
+* Gerenciando conflitos de Merge: <a href="https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging"> Git tools - Advanced Merging</a>
+* Rebase: <a href="https://git-scm.com/book/en/v2/Git-Branching-Rebasing">Git Branching - Rebase</a>
+* Git cherry-pick: <a href="https://git-scm.com/docs/git-cherry-pick">git-cherry-pick</a>
+* Submódulos: <a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">Git tools - Submodules</a>
+* Tags: <a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging">Git Basics - Tagging</a>
