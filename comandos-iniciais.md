@@ -4,6 +4,24 @@
 Este é um tutorial de Git que abrange alguns dos comandos básicos para começar a usar o Git em um projeto.
 </div>
 
+## Instalação
+
+A instalação abaixo é feita para ambientes Linux, baseados na distribuição Debian. Para instalação no Windows, recomenda-se instalar conforme este [tutorial](https://www.youtube.com/watch?v=4xqVv2lTo40).
+
+
+```
+sudo apt update
+sudo apt install git-all
+```
+
+Obs.: É necessário permissão de administrador para executar os comandos.
+
+É possível verificar se a instalação foi concluída pelo comando a seguir:
+
+```
+git --version
+```
+
 ## Configuração Inicial
 
 <div style="text-align:justify">
@@ -108,5 +126,16 @@ git log
 <div style="text-align:justify">
 
 Esse comando mostra uma lista de commits no repositório, exibindo informações como autor, data, hora e mensagem do commit.
+
+</div>
+
+## Referências adicionais
+
+<div style="text-align:justify">
+
+* <a href="https://git-scm.com/doc">Documentação do Git</a>
+* <a href="">Documentação Atlassian do Git</a>
+* <a href="https://www.w3schools.com/git/">Tutorial W3Schools</a>
+* <a href="https://youtu.be/8JJ101D3knE">Learn Git in 1 Hour</a>
 
 </div>
